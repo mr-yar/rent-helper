@@ -12,7 +12,7 @@ export const store = configureStore({
   reducer: {},
   preloadedState,
   // middleware: middlewares,
-  devTools: process.env.NODE_ENV !== 'production',
+  devTools: process.env.NODE_ENV !== 'production'
 });
 
 // sagaMiddleware.run(rootWatcher);
